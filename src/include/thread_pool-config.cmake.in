@@ -1,0 +1,16 @@
+# Set the install prefix, which is used to
+# relocate the install directory of the
+# thread pool library
+set(thread_pool_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the library name
+set(thread_pool_LIB_NAME "thread_pool")
+
+# Set the include directories
+set(thread_pool_INCLUDE_DIRS "${thread_pool_INSTALL_PREFIX}/include")
+
+# Set the library locations
+set(thread_pool_LIBRARY_DIRS "${thread_pool_INSTALL_PREFIX}/lib")
+
+# Set the library targets
+set(thread_pool_LIBRARIES "thread_pool")
